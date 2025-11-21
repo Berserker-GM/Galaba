@@ -1,1 +1,24 @@
+# doc2video-ml-engine
+
+ML Engine for Document → Video pipeline (full engine: summarization, scene-splitting, prompt generation, TTS, Pika API glue, assembly).
+
+## What this repo contains
+- PDF/text extractor
+- LLM summarizer & scene/story generator
+- Scene → video prompt generator
+- Face encoder / style transfer hooks
+- Pika API interface (text -> video)
+- TTS interface (ElevenLabs)
+- Video assembler using MoviePy
+- Example script & sample data
+
+## Quick start (local)
+1. Clone repo
+2. `python3 -m venv venv && source venv/bin/activate`
+3. `pip install -r requirements.txt`
+4. Copy your API keys into `config.yml`
+5. Put a sample file at `example_data/sample_upload.png` (or reference `/mnt/data/90133d28-3792-4719-868f-11bc0181fbf0.png`)
+6. Run:
+   ```bash
+   bash run_example.sh
 
