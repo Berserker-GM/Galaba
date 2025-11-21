@@ -1,1 +1,19 @@
 
+fastapi==0.95.2
+uvicorn==0.22.0
+pydantic==1.10.7
+transformers==4.47.0
+torch>=1.12.0
+sentencepiece
+PyMuPDF==1.22.5
+moviepy==1.0.3
+Pillow==9.5.0
+numpy==1.25.2
+requests==2.31.0
+tqdm==4.66.1
+scikit-image
+scipy
+faiss-cpu
+soundfile
+python-dotenv
+openai
